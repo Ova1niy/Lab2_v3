@@ -80,6 +80,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/ova1niy/CLionProjects/Lab2_v3/Sorting/QuickSorting.h">
+			<Option target="Lab2_v3"/>
+		</Unit>
+		<Unit filename="/Users/ova1niy/CLionProjects/Lab2_v3/Sorting/ShakeSorting.h">
+			<Option target="Lab2_v3"/>
+		</Unit>
+		<Unit filename="/Users/ova1niy/CLionProjects/Lab2_v3/Sorting/Sorting.h">
+			<Option target="Lab2_v3"/>
+		</Unit>
 		<Unit filename="/Users/ova1niy/CLionProjects/Lab2_v3/main.cpp">
 			<Option target="Lab2_v3"/>
 		</Unit>

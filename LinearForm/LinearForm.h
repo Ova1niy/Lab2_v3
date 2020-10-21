@@ -188,7 +188,7 @@ LinearForm<T>& operator+(const LinearForm<T>& lf1, const LinearForm<T>& lf2) {
         for (int i = 0; i < lf2.GetSize(); ++i) {
             res->Set(i, lf1.Get(i) + lf2.Get(i));
         }
-        return res;
+        return *res;
     } else {
         res = new LinearForm<T>(lf2.GetSize(), lf2.Type());
         for (int i = 0; i < lf1.GetSize(); ++i) {

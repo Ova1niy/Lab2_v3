@@ -3,4 +3,4 @@ project(Lab2_v3)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Lab2_v3 main.cpp)
+add_executable(Lab2_v3 main.cpp Sorting/Sorting.h Sorting/QuickSorting.h Sorting/ShakeSorting.h)

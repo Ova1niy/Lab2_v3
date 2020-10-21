@@ -42,8 +42,32 @@ Sequence.h
 string
 -
 
+/Users/ova1niy/CLionProjects/Lab2_v3/Sorting/QuickSorting.h
+../Sequence/Sequence.h
+/Users/ova1niy/CLionProjects/Lab2_v3/Sequence/Sequence.h
+Sorting.h
+/Users/ova1niy/CLionProjects/Lab2_v3/Sorting/Sorting.h
+
+/Users/ova1niy/CLionProjects/Lab2_v3/Sorting/ShakeSorting.h
+../Sequence/Sequence.h
+/Users/ova1niy/CLionProjects/Lab2_v3/Sequence/Sequence.h
+Sorting.h
+/Users/ova1niy/CLionProjects/Lab2_v3/Sorting/Sorting.h
+
+/Users/ova1niy/CLionProjects/Lab2_v3/Sorting/Sorting.h
+../Sequence/Sequence.h
+/Users/ova1niy/CLionProjects/Lab2_v3/Sequence/Sequence.h
+../Sequence/ArraySequence.h
+/Users/ova1niy/CLionProjects/Lab2_v3/Sequence/ArraySequence.h
+../Sequence/ListSequence.h
+/Users/ova1niy/CLionProjects/Lab2_v3/Sequence/ListSequence.h
+
 /Users/ova1niy/CLionProjects/Lab2_v3/main.cpp
 iostream
+-
+cstdio
+-
+ctime
 -
 Comp/Comp.h
 /Users/ova1niy/CLionProjects/Lab2_v3/Comp/Comp.h
@@ -55,4 +79,12 @@ Sequence/ArraySequence.h
 /Users/ova1niy/CLionProjects/Lab2_v3/Sequence/ArraySequence.h
 Sequence/ListSequence.h
 /Users/ova1niy/CLionProjects/Lab2_v3/Sequence/ListSequence.h
+Sorting/Sorting.h
+/Users/ova1niy/CLionProjects/Lab2_v3/Sorting/Sorting.h
+Sorting/QuickSorting.h
+/Users/ova1niy/CLionProjects/Lab2_v3/Sorting/QuickSorting.h
+Sorting/ShakeSorting.h
+/Users/ova1niy/CLionProjects/Lab2_v3/Sorting/ShakeSorting.h
+random
+-
 
