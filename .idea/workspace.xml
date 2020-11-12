@@ -11,9 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e2166b9-a5d5-4160-8223-59555a17ebc2" name="Default Changelist" comment="">
+    <list default="true" id="8e2166b9-a5d5-4160-8223-59555a17ebc2" name="Default Changelist" comment="Added buffer to DynamicArray.h&#10;Теперь не стыдно пользоваться в следующей лабе)))))">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicArray/DynamicArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicArray/DynamicArray.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2_v3.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2_v3.dir/main.cpp.o" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <workItem from="1601832603060" duration="3233000" />
       <workItem from="1603299344632" duration="5063000" />
       <workItem from="1605194253525" duration="167000" />
-      <workItem from="1605195169604" duration="1150000" />
+      <workItem from="1605195169604" duration="1404000" />
     </task>
     <task id="LOCAL-00001" summary="Added Sorting.h&#10;Added QuickSorting.h&#10;Added ShakeSorting.h&#10;Added TestQuickSorting in main.cpp&#10;Added TestShakeSorting in main.cpp&#10;Added SimpleTests for Sortings">
       <created>1603301638240</created>
@@ -94,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603301793138</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added buffer to DynamicArray.h&#10;Теперь не стыдно пользоваться в следующей лабе)))))">
+      <created>1605196524459</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605196524459</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,37 +125,38 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Laba1" />
     <MESSAGE value="Added Sorting.h&#10;Added QuickSorting.h&#10;Added ShakeSorting.h&#10;Added TestQuickSorting in main.cpp&#10;Added TestShakeSorting in main.cpp&#10;Added SimpleTests for Sortings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Sorting.h&#10;Added QuickSorting.h&#10;Added ShakeSorting.h&#10;Added TestQuickSorting in main.cpp&#10;Added TestShakeSorting in main.cpp&#10;Added SimpleTests for Sortings" />
+    <MESSAGE value="Added buffer to DynamicArray.h&#10;Теперь не стыдно пользоваться в следующей лабе)))))" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added buffer to DynamicArray.h&#10;Теперь не стыдно пользоваться в следующей лабе)))))" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Notifications" timestamp="1603301843787">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1603301843787" />
-    <state x="314" y="0" width="812" height="588" key="CommitChangelistDialog2" timestamp="1603301792982">
+    <state x="314" y="0" width="812" height="588" key="CommitChangelistDialog2" timestamp="1605196630285">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="0" width="812" height="588" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1603301792982" />
+    <state x="314" y="0" width="812" height="588" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1605196630285" />
     <state x="314" y="32" key="CommitChangelistDialog2/0.23.1440.810@0.23.1440.810" timestamp="1603301638039" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1603306739611">
+    <state width="699" height="456" key="GridCell.Tab.0.bottom" timestamp="1605196534635">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603306739611" />
+    <state width="699" height="456" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605196534635" />
     <state width="1398" height="185" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1601932834998" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1603306739609">
+    <state width="699" height="456" key="GridCell.Tab.0.center" timestamp="1605196534634">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603306739609" />
+    <state width="699" height="456" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605196534634" />
     <state width="1398" height="185" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1601932834997" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1603306739609">
+    <state width="699" height="456" key="GridCell.Tab.0.left" timestamp="1605196534633">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603306739609" />
+    <state width="699" height="456" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605196534633" />
     <state width="1398" height="185" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1601932834996" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1603306739610">
+    <state width="699" height="456" key="GridCell.Tab.0.right" timestamp="1605196534634">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603306739610" />
+    <state width="699" height="456" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605196534634" />
     <state width="1398" height="185" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1601932834997" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1603306739613">
       <screen x="0" y="0" width="1440" height="900" />
