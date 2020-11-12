@@ -13,9 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8e2166b9-a5d5-4160-8223-59555a17ebc2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2_v3.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2_v3.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab2_v3" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab2_v3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicArray/DynamicArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicArray/DynamicArray.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +77,8 @@
       <workItem from="1601044175754" duration="790000" />
       <workItem from="1601832603060" duration="3233000" />
       <workItem from="1603299344632" duration="5063000" />
+      <workItem from="1605194253525" duration="167000" />
+      <workItem from="1605195169604" duration="1150000" />
     </task>
     <task id="LOCAL-00001" summary="Added Sorting.h&#10;Added QuickSorting.h&#10;Added ShakeSorting.h&#10;Added TestQuickSorting in main.cpp&#10;Added TestShakeSorting in main.cpp&#10;Added SimpleTests for Sortings">
       <created>1603301638240</created>
@@ -105,7 +105,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -164,10 +166,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1603306739612" />
-    <state x="399" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1603300949002">
+    <state x="399" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1605195169328">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="399" y="277" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1603300949002" />
+    <state x="399" y="277" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1605195169328" />
     <state x="399" y="277" key="com.intellij.ide.util.TipDialog/0.23.1440.810@0.23.1440.810" timestamp="1601834782400" />
     <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603300885517">
       <screen x="0" y="0" width="1440" height="900" />

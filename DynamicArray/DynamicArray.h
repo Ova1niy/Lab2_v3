@@ -10,10 +10,13 @@
 #include "../Comp/Comp.h"
 using namespace std;
 
+const int BUFFER_SIZE = 10;
+
 template<class T>
 class DynamicArray {
 private:
     T* head;
+    int buffer = BUFFER_SIZE;
     int size;
 public:
 
@@ -60,11 +63,19 @@ public:
     }
 };
 
+int BufferCount(unsigned int count) {
+    if (count % BUFFER_SIZE == 0) {
+        return count / BUFFER_SIZE;
+    } else {
+        return count / BUFFER_SIZE + 1;
+    }
+}
+
 // Реализация
 template <class T>
 DynamicArray<T>::DynamicArray(unsigned int count) {
-    size = count;
-    head = (T*)malloc(sizeof(T) * count);
+    size = buffer * BufferCount(count);
+    head = (T*)malloc(sizeof(T) * size);
     for (int i = 0; i < count; ++i) {
         head[i] = 0;
     }
@@ -72,8 +83,8 @@ DynamicArray<T>::DynamicArray(unsigned int count) {
 
 template <class T>
 DynamicArray<T>::DynamicArray(T* items, unsigned int count) {
-    size = count;
-    head = (T*)malloc(sizeof(T) * count);
+    size = buffer * BufferCount(count);
+    head = (T*)malloc(sizeof(T) * size);
     for (int i = 0; i < count; ++i) {
         head[i] = items[i];
     }
@@ -81,7 +92,7 @@ DynamicArray<T>::DynamicArray(T* items, unsigned int count) {
 
 template<class T>
 DynamicArray<T>::DynamicArray(const DynamicArray<T> &arr) {
-    size = arr.size;
+    size = arr.size; // размер по-любому учитывает буффер
     head = (T*)malloc(sizeof(T) * size);
     for (int i = 0; i < size; ++i) {
         head[i] = arr.head[i];
@@ -152,6 +163,7 @@ void DynamicArray<T>::Resize(unsigned int newSize) {
     if (newSize < 0) {
         throw "NegativeSize";
     }
+    newSize = buffer * BufferCount(newSize);
     T* newHead = (T*)malloc(sizeof(T) * newSize);
     if (newSize < size) {
         for (int i = 0; i < newSize; ++i) {
@@ -173,7 +185,8 @@ void DynamicArray<T>::Resize(unsigned int newSize) {
 
 template<class T>
 void DynamicArray<T>::Append(T item) {
-    T* newHead = (T*)malloc(sizeof(T) * (size + 1));
+    unsigned int newSize = buffer * BufferCount(size + 1);
+    T* newHead = (T*)malloc(sizeof(T) * newSize);
     newHead[0] = item;
     for (int i = 0; i < size; ++i) {
         newHead[i+1] = head[i];
@@ -185,14 +198,20 @@ void DynamicArray<T>::Append(T item) {
 
 template<class T>
 void DynamicArray<T>::Prepend(T item) {
-    T* newHead = (T*)malloc(sizeof(T) * (size + 1));
-    for (int i = 0; i < size; ++i) {
-        newHead[i] = head[i];
+    if (BufferCount(size) != BufferCount(size + 1)) {
+        unsigned int newSize = buffer * BufferCount(size + 1);
+        T* newHead = (T*)malloc(sizeof(T) * newSize);
+        for (int i = 0; i < size; ++i) {
+            newHead[i] = head[i];
+        }
+        newHead[size] = item;
+        free(head);
+        head = newHead;
+        ++size;
+    } else {
+        head[size] = item;
+        ++size;
     }
-    newHead[size] = item;
-    free(head);
-    head = newHead;
-    ++size;
 }
 
 template<class T>
@@ -200,7 +219,8 @@ void DynamicArray<T>::InsertAt(T item, unsigned int index) {
     if (index < 0 || index > size) {
         throw "IndexOutOfRange";
     }
-    T* newHead = (T*)malloc(sizeof(T) * (size + 1));
+    unsigned int newSize = buffer * BufferCount(size + 1);
+    T* newHead = (T*)malloc(sizeof(T) * newSize);
     int i = 0;
     for ( ; i < index; ++i) {
         newHead[i] = head[i];
